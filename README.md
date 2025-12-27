@@ -27,3 +27,14 @@ This project demonstrates form handling, data flow across layers, and dynamic JS
 * @NoArgsConstructor - Generates a no-argument constructor.
 
 * @AllArgsConstructor - Generates a constructor with all fields.
+
+
+We did not manually configure Tomcat because Spring Boot does it for us automatically. Spring Boot Comes with Embedded Tomcat
+
+When you add Spring Web dependency, **spring-boot-starter-web**, Spring Boot automatically:
+
+* Includes embedded Tomcat, configures it internally
+
+* Starts the server on port 8080
+
+* Handles servlet registration and request mapping
